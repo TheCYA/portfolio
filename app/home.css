@@ -1,0 +1,140 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    gap: 20px;
+}
+.main h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--head-color);
+}
+.main h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    width: 60%;
+    padding: 4rem 2rem 5rem 2rem;
+    background-color: var(--bg-color-3);
+}
+.about h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--head-color);
+}
+.about p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    width: 100%;
+}
+.projects h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--head-color);
+}
+.projects .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 80%;
+    margin-top: 20px;
+}
+.projects .container article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+}
+.projects .container article img{
+    width: 80%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    padding: 4rem 2rem 5rem 2rem;
+    width: 80%;
+    background-color: var(--bg-color-3);
+}
+.skills h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--head-color);
+}
+.skills .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 80%;
+    height: auto;
+}
+.skills .container div{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    align-items: center;
+    background-color: var(--bg-color);
+    padding: 1rem;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    padding: 4rem 2rem 5rem 2rem;
+    width: 80%;
+}
+.contact h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--head-color);
+}
+.contact p{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+.contact .container{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+.contact .container div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
